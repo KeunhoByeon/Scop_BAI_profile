@@ -100,8 +100,8 @@ if __name__ == '__main__':
     parser.add_argument('--num_classes', default=12, type=int, metavar='N', help='number of classes')
     parser.add_argument('--data', default='~/data/bai', metavar='DIR', help='path to dataset')
     parser.add_argument('--data_type', default='all', type=str, help='Data type (50, 100, 365, all)')
-    parser.add_argument('--model_path', default='results_hs/model_best.pth', type=str, metavar='PATH', help='path to model')
-    parser.add_argument('--csv_path', default='results_hs/features.csv', type=str, metavar='PATH', help='path to features csv')
+    parser.add_argument('--model_path', default='results/model_best.pth', type=str, metavar='PATH', help='path to model')
+    parser.add_argument('--csv_path', default='results/features.csv', type=str, metavar='PATH', help='path to features csv')
     args = parser.parse_args()
 
     args.data = os.path.expanduser(args.data)
