@@ -12,3 +12,4 @@ yacs
 xlrd
 scipy
 sklearn
+pyinstaller
